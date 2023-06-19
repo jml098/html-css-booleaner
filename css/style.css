@@ -4,12 +4,35 @@ body {
 }
 
 header div {
-   background-color: lightblue;
-   height: 75px;
+   background-color: rgb(156,214,244);
+   height: 130px;
 }
 
 #logo {
-   height: 35px;
-   margin-top: 20px;
-   margin-left: 5px;
+   height: 50px;
+   margin-top: 40px;
+   margin-left: 15px;
+}
+
+#main_div {
+    
+}
+
+#table_lorem {
+    width: 100%;
+}
+
+#table_lorem thead {
+    background-color: rgb(127,166,251);
+    color: white;
+}
+
+#table_lorem tr:nth-child(odd) td {
+    background-color: rgb(223,229,242);
+}
+
+
+#bg-image {
+    position: absolute;
+    opacity: 0.5;
 }
