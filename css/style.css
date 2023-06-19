@@ -19,7 +19,8 @@ header div {
 }
 
 #main-div {
-   margin-left: 15px;
+    width: 97%;
+   margin-left: 1.5%;
 }
 
 #main-div img {
