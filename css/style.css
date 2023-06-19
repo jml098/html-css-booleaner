@@ -1,0 +1,15 @@
+body {
+   box-sizing: border-box;
+   margin: 0px;
+}
+
+header div {
+   background-color: lightblue;
+   height: 75px;
+}
+
+#logo {
+   height: 35px;
+   margin-top: 20px;
+   margin-left: 5px;
+}
