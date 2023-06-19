@@ -3,6 +3,10 @@ body {
    margin: 0px;
 }
 
+body * {
+    margin: 0;
+}
+
 header div {
    background-color: rgb(156,214,244);
    height: 130px;
@@ -18,31 +22,8 @@ header div {
    margin-left: 15px;
 }
 
-#main-div h1 {
-    font-size: 38px;
-    margin-top: 38px;
-    margin-bottom: 0px;
-}
-
-#main-div :nth-child(2) {
-    margin-top: -2px;
-}
-
-#main-div :nth-child(3) {
-    margin-top: -18px;
-}
-
-#table_lorem {
-    width: 100%;
-}
-
-#table_lorem thead {
-    background-color: rgb(127,166,251);
-    color: white;
-}
-
-#table_lorem tr:nth-child(odd) td {
-    background-color: rgb(223,229,242);
+#main-div img {
+    margin-top: 8px;
 }
 
 
@@ -62,3 +43,60 @@ header div {
 .smaller {
     font-size: 12px;
 }
+
+.lighter {
+    opacity: 0.5;
+}
+
+.highlighted {
+    background-color: yellow;
+}
+
+.content_title h1 {
+    font-size: 38px;
+    margin-top: 38px;
+    margin-bottom: -1px;
+}
+
+.content_images {
+    margin-top: 10px;
+}
+
+.image_description p  {
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.content_text {
+    margin-top: 20px;
+}
+
+.content_text ul {
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+#table-lorem {
+    margin-top: 29px;
+}
+
+#table-lorem thead {
+    background-color: rgb(29, 74, 172);
+    color: white;
+}
+
+#table-lorem th {
+    text-align: left;
+    padding: 0;
+}
+
+#table-lorem td {
+    text-align: left;
+    padding: 0;
+}
+
+#table-lorem tr:nth-child(odd) td {
+    background-color: rgb(223,229,242);
+}
+
